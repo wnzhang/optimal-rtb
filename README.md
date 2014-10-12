@@ -30,6 +30,7 @@ prop    clks    bids    imps    budget  spend   algo    para
 64      330     424901  32372   706507  706520  mcpc    1
 64      14      614638  52079   706507  689611  rand    30
 ```
+Here 'prop' means the proportion between the original cost in the test data and the set budget in the test environment. See [our benchmarking paper](http://arxiv.org/abs/1407.7073) for details.
 
 ### Misc
 The code implementation of generating features has a little difference between that in [our benchmarking paper](http://arxiv.org/abs/1407.7073): in the orginal dataset, there could be multiple click events for one impression event. In the benchmarking paper, the multiple clicks are directly counted as the number is. In the `make-ipinyou-data` project, we only count for 1 click even if there are more than one clicks.
