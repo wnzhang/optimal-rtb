@@ -5,7 +5,7 @@ A benchmarking framework supporting the experiments of real-time bidding optimis
 
 In the current version, we implemented the feature engineering for logistic regression CTR estimator and standard bidding functions as described in the above reference. The state-of-the-art bidding function proposed in KDD'14 paper [Optimal Real-Time Bidding for Display Advertising](http://www0.cs.ucl.ac.uk/staff/w.zhang/papers/ortb-kdd.pdf) is planned to be published here in Dec. 2014.
 
-For any problems, please report the issues here or email Weinan Zhang (w.zhang@cs.ucl.ac.uk).
+For any problems, please report the issues here or contact [Weinan Zhang](http://www0.cs.ucl.ac.uk/staff/w.zhang/).
 
 ### Feature Engineering Code
 Please check our GitHub project [make-ipinyou-data](https://github.com/wnzhang/make-ipinyou-data). After downloading the dataset, by simplying `make all` you can generate the standardised data which will be used in the bid optimisation tasks.
