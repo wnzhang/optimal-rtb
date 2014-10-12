@@ -20,15 +20,15 @@ Then under `optimal-rtb/scripts/` you can simply run `bash demo.sh` to train a l
 
 After running the demo, you could find a file `results/rtb.results.1458.best.perf.tsv` containing the best performance for each bidding algorithm.
 ```
-prop  clks	bids	imps	budget	spend	algo	para
-16  51	227472	97784	2826028	2826032	const	55
-16	482	614638	89408	2826028	2804895	lin	130
-16	473	614638	38858	2826028	816763	mcpc	1
-16	50	199209	77751	2826028	2826041	rand	100
-64	16	472727	57030	706507	706508	const	20
-64	471	614638	31908	706507	628971	lin	60
-64	330	424901	32372	706507	706520	mcpc	1
-64	14	614638	52079	706507	689611	rand	30
+prop    clks    bids    imps    budget  spend   algo    para
+16      51      227472  97784   2826028 2826032 const   55
+16      482     614638  89408   2826028 2804895 lin     130
+16      473     614638  38858   2826028 816763  mcpc    1
+16      50      199209  77751   2826028 2826041 rand    100
+64      16      472727  57030   706507  706508  const   20
+64      471     614638  31908   706507  628971  lin     60
+64      330     424901  32372   706507  706520  mcpc    1
+64      14      614638  52079   706507  689611  rand    30
 ```
 
 ### Misc
