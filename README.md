@@ -16,7 +16,7 @@ After successfully generating the data, let's suppose `make-ipinyou-data` projec
 weinan@ZHANG:~/Project$ ls
 optimal-rtb    make-ipinyou-data
 ```
-Then under `optimal-rtb/scripts/` you can simply run `bash demo.sh` to train a logistic regression CTR estimator for one campaign data generated in `make-ipinyou-data` and then perform several bid optimisation.
+Then under `optimal-rtb/scripts/` you can simply run `bash demo.sh` to train a logistic regression CTR estimator for one campaign data generated in `make-ipinyou-data` and then perform several bid optimisation algorithms with different parameters.
 
 After running the demo, you could find a file `results/rtb.results.1458.best.perf.tsv` containing the best performance for each bidding algorithm.
 ```
